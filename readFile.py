@@ -47,7 +47,6 @@ americanCivilWar.close()
 picture = open('/filepath/Img_File.bmp','rb')
 picture_Binary = open('/filepath/Img_File_Binary.txt','w')
 picture_Int = open('/filepath/Img_File_Int.txt','w')
-picture_CaesarCipher = open('/filepath/Img_CaesarCipher.txt','w')
 pictureRead = picture.read()
 
 # reset files
@@ -55,11 +54,8 @@ picture_Binary.write("")
 picture_Binary.close()
 picture_Int.write("")
 picture_Int.close()
-picture_CaesarCipher.write("")
-picture_CaesarCipher.close()
 
 # write to binary
-data = bytearray(pictureRead)
 data = str(pictureRead)
 appendFile = open('/filepath/Img_File_Binary.txt','a')
 with appendFile:
