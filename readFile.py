@@ -37,8 +37,6 @@ with appendFile:
   for i in americanCivilWarRead:
     appendFile.write(str(ord(i)))
     appendFile.write(" ")
-    # print(int(i))
-    # print(ord(i), end = " ")
 
 appendFile.close()
 americanCivilWar.close()
