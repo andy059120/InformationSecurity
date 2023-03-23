@@ -1,4 +1,4 @@
 # Information Security Project
 
-### language: Python
-### development environment: Google Colab
+### Language: Python
+### Development environment: Google Colab
